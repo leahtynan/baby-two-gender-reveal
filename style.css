@@ -38,7 +38,7 @@ h2 {
 	text-align: center;
 }
 
-button {
+.column button {
 	margin-top: 25px;
 	width: 100%;
 	height: auto;
@@ -75,10 +75,25 @@ button:hover {
 	float: left;
 }
 
-@media screen and (max-width: 850px) {
+#reset-button {
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	width: 100px;
+}
 
+@media screen and (max-width: 850px) {
+	#outer-container {
+		background-color: blue;
+		width: 90%;
+		margin: 25px 5%;
+	}
 }
 
 @media screen and (max-width: 400px) {
-
+	#outer-container {
+		background-color: purple;
+		width: 95%;
+		margin: 25px 2.5%;
+	}
 }
