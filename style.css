@@ -1,0 +1,84 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+/* Clearfix */
+.clearfix:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: gray;
+}
+
+h1 {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+button {
+	margin-top: 25px;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	display: block;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #6da5ff;
+}
+
+#outer-container {
+	display: block;
+	background-color: yellow;
+	width: 80%;
+	margin: 25px 10%;
+}
+
+#columns {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	background-color: green;
+	padding: 25px 0;
+	margin: 25px 0;
+}
+
+.column {
+	display: inline-block;
+	background-color: red;
+	width: 44%;
+	margin: 0 3%;
+	float: left;
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
