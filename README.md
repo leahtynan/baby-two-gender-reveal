@@ -4,4 +4,4 @@
  - The correct answer is revealed
  - The game has the ability to reset after a guess is made
 
-[Visit Mini-Game](https://leahtynan.com/baby-two/
+[Visit Mini-Game](https://leahtynan.com/baby-two/)
